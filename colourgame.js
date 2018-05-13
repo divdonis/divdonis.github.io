@@ -24,6 +24,8 @@ easyBtn.addEventListener("click", function(){
 	easyBtn.classList.add("selected");
 	numSquares = 3;
 	colours = generateRandomColour(numSquares);
+	h1.style.backgroundColor = "#f9f9f9";
+	stripe.style.backgroundColor = "#f9f9f9";
 	pickedColour = pickColour();
 	colourDisplay.textContent = pickedColour;
 	for(var i = 0; i < squares.length; i++){
@@ -43,6 +45,8 @@ hardBtn.addEventListener("click", function(){
 	numSquares = 6;
 	colours = generateRandomColour(numSquares);
 	pickedColour = pickColour();
+	h1.style.backgroundColor = "#f9f9f9";
+	stripe.style.backgroundColor = "#f9f9f9";
 	colourDisplay.textContent = pickedColour;
 	for(var i = 0; i < squares.length; i++){
 		
