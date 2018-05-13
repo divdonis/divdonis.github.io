@@ -40,7 +40,7 @@ easyBtn.addEventListener("click", function(){
 hardBtn.addEventListener("click", function(){
 	hardBtn.classList.add("selected");
 	easyBtn.classList.remove("selected");
-	numSquares = 9;
+	numSquares = 6;
 	colours = generateRandomColour(numSquares);
 	pickedColour = pickColour();
 	colourDisplay.textContent = pickedColour;
