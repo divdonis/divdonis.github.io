@@ -85,7 +85,7 @@ body {
 }
 .set {
 	width: 100%;
-	height: 70px;
+	height: 150px;
 	object-fit: cover;
 	margin: auto;
 	transition: .3s;
