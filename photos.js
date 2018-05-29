@@ -2,7 +2,6 @@ $("img").click(function(){
 	$(this).toggleClass("expand");
 });
 
-down vote
 $(document).ready(function() {
     // Fix background image caching problem
     if (jQuery.browser.msie) {
