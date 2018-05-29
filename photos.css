@@ -68,6 +68,7 @@ background: linear-gradient(to right, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, F
 }
 
 #photos img {
+	padding-right: 5px;
 	margin-top: 5px;
 	margin-left: 5px;
   width: 100% !important;
