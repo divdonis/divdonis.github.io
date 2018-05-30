@@ -78,17 +78,12 @@ background: linear-gradient(to right, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, F
     filter: alpha(opacity=50);
 }
 body {
-	background-image: url(https://i.imgur.com/MeI6k66.jpg);
+	background-image: url();
 	background-repeat: none;
 	background-position: top;
 	background-attachment: fixed;
-	 -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	transform: translateZ(0);
-	will-change: transform;
-  	position: fixed;
+	
+ 
 
 }
 .set {
